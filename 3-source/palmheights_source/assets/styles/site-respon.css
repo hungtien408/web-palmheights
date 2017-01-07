@@ -1,0 +1,154 @@
+﻿.ipadmo-992 { /* ẩn nút menu */
+    display: none;
+}
+
+.main-scroll-page .section {
+        height:auto !important;
+        padding:25px 0;
+}
+.main-scroll-page #section0 {
+    padding:0;
+}
+.main-scroll-page .wrap-overview.wrap-left {
+    opacity:1;
+    left:0;
+    top:0;
+    height:400px;
+}
+.main-scroll-page .wrap-overview.wrap-album {
+    right:0;
+    float:none;
+}
+.main-scroll-page .wrap-overview {
+    margin:0 !important;
+}
+.main-scroll-page .content-left {
+    opacity:1;
+    float:none;
+    display:inline-block;
+    width:55%;
+    vertical-align:top;
+    left:0;
+}
+.main-scroll-page .content-right {
+    opacity:1;
+    float:none;
+    display:inline-block;
+    width:40%;
+    vertical-align:top;
+    right:0;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1199px) {
+    .info-location .wrap-image {
+        width:40%;
+    }
+    .info-location .wrap-title {
+        width:50%;
+    }
+
+    /* tin tuc */
+    .item-news {
+        width:33.3333%;
+    }
+}
+@media (min-width: 993px) and (max-width: 1199px){
+    
+}
+@media (max-width: 992px){
+    .ipadmo-992 { /* hiện menu đt */
+        display: block;
+    }
+    .desktop-992 { /* ẩn menu pc */
+        display: none;
+    }
+    #A1 {
+        display:none;
+    }
+    
+}
+@media screen and (max-width: 991px){
+    .top-footer .top-left {
+        width:100%;
+        text-align:center;
+        float:none;
+    }
+    .top-footer .top-right {
+        width:100%;
+    }
+    /* tin tuc */
+    .item-news {
+        width:50%;
+    }
+
+    /* lien he */
+    .contact-wrap {
+        width:100%;
+    }
+    #mapshow {
+        width:100%;
+    }
+}
+@media screen and (max-width: 970px){
+   
+}
+@media screen and (max-width: 860px){
+    
+} 
+@media screen and (max-width: 820px){
+
+}       
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 992px){ 
+	
+}
+@media screen and (max-width: 768px) {
+    .main-scroll-page .content-left {
+        width:100%;
+    }
+    .main-scroll-page .content-right {
+        width:100%;
+    }
+    .wrap-overview.wrap-album {
+        max-width:100%;
+    }
+    .wrap-overview .overview-info{
+        padding:10px 15px;
+    }
+    .overview-info .mCSB_inside > .mCSB_container {
+        margin-right:0;
+    }
+    .overview-info .mCSB_scrollTools {
+        right:-5px;
+    }
+}
+@media screen and (max-width: 720px) {
+    
+}
+@media screen and (max-width: 640px){
+    .top-footer .top-right ul li {
+        width:100%;
+        margin-bottom:15px;
+    }
+    .ls-overview .item {
+        width:100%
+    }
+}
+@media screen and (max-width: 550px){
+	
+}
+@media screen and (max-width: 480px){
+    
+    /* tin tuc */
+    .item-news {
+        width:100%;
+    }
+}
+@media screen and (max-width: 420px){
+    
+}
